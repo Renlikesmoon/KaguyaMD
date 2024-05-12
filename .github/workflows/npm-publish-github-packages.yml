@@ -15,7 +15,7 @@ jobs:
       - uses: actions/setup-node@v3
         with:
           node-version: 16
-      - run: [![Kaguya](https://github.com/Renlikesmoon/KaguyaMD/actions/workflows/npm-publish-github-packages.yml/badge.svg?branch=master&event=deployment)](https://github.com/Renlikesmoon/KaguyaMD/actions/workflows/npm-publish-github-packages.yml)
+      - run: npm start
       - run: npm start 
 
   publish-gpr:
